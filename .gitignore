@@ -1,0 +1,43 @@
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/coverage/
+/spec/tmp/*
+/public/assets
+
+# Ignore config
+config/database.yml
+config/application.yml
+
+# Ignore logs and temp files
+/log/*
+/tmp/*
+
+# Ignore databases
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore uploads
+/public/system/*
+
+# Ignore other junk that some crops up
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Ignore temp stuff
+designs
+samples
+TODO.md
+
+# Vagrant
+.vagrant
+
+# Chef
+encrypted_data_bag_secret
+chef/cookbooks
+
